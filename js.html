@@ -64,9 +64,16 @@ function summ(a,b){
 document.write("Moja Funkcja suma:", summ(firstNum, secondNum))
 
 function myFunction(){
-    document.getElementById("demo").innerHTML += "We"; 
+    document.getElementById("demo").innerHTML += "We clicked!<br>"; 
 }
-document.addEventListener("click", myFunction);
+document.getElementById("clickIt").addEventListener("click", myFunction);
+
+        functiondodaj(){
+            let liczba1=parseInt(document.getElementById("liczba1").value);
+            let liczba2=parseInt(document.getElementById("liczba2").value);
+            let wynikSum = liczba1+liczba2;
+            document.getElementBy("wynik").innerHTML=wynikSum;
+        }
 
 
     </script>
