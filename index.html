@@ -76,11 +76,11 @@
 
 		
 		<table border="1"> 
- <tr><th>imie</tgh><th>nazwisko</th></tr>
- <tr><th>Alicja</tgh><th>Kozielewicz</th></tr>
- <tr><th>Magdzia</tgh><th>Konieczny</th></tr>
+ 			<tr><th>imie</tgh><th>nazwisko</th></tr>
+			 <tr><th>Alicja</tgh><th>Kozielewicz</th></tr>
+		 	<tr><th>Magdzia</tgh><th>Konieczny</th></tr>
 		</table>
- <br>
+		<br>
 	<table border="1"> 
 	<tr>
 		<th>Nazwa rezerwatu</th>
@@ -118,8 +118,17 @@
 
 	 </p>
 	 <p>
-		&copy; Klasa 3a Alicja Kozielewicz
+		Copyright &copy; Klasa 3a Alicja Kozielewicz &spades;
 	 </p>
+	    
 	</footer>
+		<script>
+			function (t, p, w, d, g){
+				if (t.getElementById(w)) return;
+				d = t.getElementsByTagName(p) [0], g = t.createElement (p);
+				g.id = w; g.src = "https://widget.twojapogoda.pl/default/main.js";g.charset="UTF-8";
+				d.parentNode.appenChild(g);
+			}
+		</script>(document, "script", "tp-widget-script-default"));
 	</body>
 </html>
