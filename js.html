@@ -86,14 +86,14 @@
             let liczba1=parseInt(document.getElementById("liczba1").value);
             let liczba2=parseInt(document.getElementById("liczba2").value);
             let wynikSum = liczba1+liczba2;
-            document.getElementBy("wynik").innerHTML=wynikSum;
+            document.getElementById("wynik").innerHTML=wynikSum;
         }
 
              function dodajEventListener(){
                 let liczba1=parseInt(document.getElementById("liczba1").value);
                 let liczba2=parseInt(document.getElementById("liczba2").value);
                 let wynikSum = liczba1+liczba2;
-                document.getElementBy("wynik").innerHTML=wynikSum;
+                document.getElementById("wynik").innerHTML=wynikSum;
         }
         document.getElementById("dodaj").addEventListener("click", dodajEventListener);
 
